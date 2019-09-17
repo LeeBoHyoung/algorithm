@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\수열과 쿼리">
+      <UniqueIdentifier>{b7d2e5fc-6fcb-4b2b-9a32-f3d7bc05b0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\N과 M">
+      <UniqueIdentifier>{24283e14-422f-4213-a3ae-d27172d6054c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="slope_14890.cpp">
@@ -29,6 +35,27 @@
     </ClCompile>
     <ClCompile Include="gear.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="robot.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="subset.cpp">
+      <Filter>소스 파일\수열과 쿼리</Filter>
+    </ClCompile>
+    <ClCompile Include="NM1.cpp">
+      <Filter>소스 파일\N과 M</Filter>
+    </ClCompile>
+    <ClCompile Include="NM2.cpp">
+      <Filter>소스 파일\N과 M</Filter>
+    </ClCompile>
+    <ClCompile Include="NM3.cpp">
+      <Filter>소스 파일\N과 M</Filter>
+    </ClCompile>
+    <ClCompile Include="NM4.cpp">
+      <Filter>소스 파일\N과 M</Filter>
+    </ClCompile>
+    <ClCompile Include="NM5.cpp">
+      <Filter>소스 파일\N과 M</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
