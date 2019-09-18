@@ -57,5 +57,14 @@
     <ClCompile Include="NM5.cpp">
       <Filter>소스 파일\N과 M</Filter>
     </ClCompile>
+    <ClCompile Include="retire.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tetromino.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="marbleEscape.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
