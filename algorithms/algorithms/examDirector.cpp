@@ -34,4 +34,7 @@ int main() {
 	}
 	cout << ans << endl;
 	return 0;
+	string a = "dmse";
+	a.siz
 }
+

@@ -72,5 +72,8 @@
     <ClCompile Include="examDirector.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="cctv.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
