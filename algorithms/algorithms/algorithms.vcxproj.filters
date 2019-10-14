@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\N과 M">
       <UniqueIdentifier>{24283e14-422f-4213-a3ae-d27172d6054c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\문자열">
+      <UniqueIdentifier>{8bc8671e-b0d7-42f0-af21-4b3c216e98e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="slope_14890.cpp">
@@ -85,6 +88,33 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="samsung_1949.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fibo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stairCount_10844.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_1953.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="backjoon_1120.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="backjoon_1152.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="backjoon_9935.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_2105.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_5658.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_2112.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
