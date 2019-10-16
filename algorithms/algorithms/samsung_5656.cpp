@@ -46,19 +46,48 @@ void bfs(int map[20][20], int r, int c) {
 				if (nr < 0 || nr >= h || nc < 1 || nc > w) continue;
 				if (v[nr][nc]) continue;
 				if (map[nr][nc] != 0) q.emplace(nr, nc);
+				/*if (i == 0) { //남
+					for (int j = nr; j < nr + map[cr][cc] - 1; j++) {
+						if (j >= h) break;
+						if (map[j][nc] != 0) {
+							q.emplace(j, nc);
+						}
+					}
+				}
+				else if (i == 1) { //북
+					for (int j = nr; j > nr - map[cr][cc] + 1; j--) {
+						if (j < 0) break;
+						if (map[j][nc] != 0) {
+
+							q.emplace(j, nc);
+						}
+					}
+				}
+				else if (i == 2) { //동
+					for (int j = nc; j < nc + map[cr][cc] - 1; j++) {
+						if (j > w) break;
+						if (map[nr][j] != 0) {
+
+							q.emplace(nr, j);
+
+						}
+					}
+				}
+				else if (i == 3) { //서
+					for (int j = nc; j > nc - map[cr][cc] + 1; j--) {
+						if (j < 1) break;
+						if (map[nr][j] != 0) {
+
+							q.emplace(nr, j);
+
+						}
+					}
+				}*/
 			}
 		}
 		map[cr][cc] = 0;
 	}
 	memset(v, false, sizeof(v));
-	for (int i = 0; i < h; i++) {
-		for (int j = 1; j <= w; j++) {
-			if (map[i][j] != 0) {
-				flag = true;
-				break;
-			}
-		}
-	}
 }
 
 void dfs(int map[20][20], int d, int count) {
@@ -74,7 +103,16 @@ void dfs(int map[20][20], int d, int count) {
 
 	bfs(map, r, c);
 
-	if (flag == false) { //남은 벽돌 없을 떄
+	for (int i = 0; i < h; i++) {
+		for (int j = 1; j <= w; j++) {
+			if (map[i][j] != 0) {
+				flag = true;
+				break;
+			}
+		}
+	}
+	
+	if (flag == false) {
 		res = 0;
 		return;
 	}

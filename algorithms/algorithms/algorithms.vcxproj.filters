@@ -114,7 +114,16 @@
     <ClCompile Include="samsung_5658.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="samsung_2112.cpp">
+    <ClCompile Include="samsung_2117.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_5656.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_2382.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_5644.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
