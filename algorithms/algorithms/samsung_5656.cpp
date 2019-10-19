@@ -1,3 +1,4 @@
+//º®µ¹±ú±â tc 44°³..
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -46,43 +47,6 @@ void bfs(int map[20][20], int r, int c) {
 				if (nr < 0 || nr >= h || nc < 1 || nc > w) continue;
 				if (v[nr][nc]) continue;
 				if (map[nr][nc] != 0) q.emplace(nr, nc);
-				/*if (i == 0) { //³²
-					for (int j = nr; j < nr + map[cr][cc] - 1; j++) {
-						if (j >= h) break;
-						if (map[j][nc] != 0) {
-							q.emplace(j, nc);
-						}
-					}
-				}
-				else if (i == 1) { //ºÏ
-					for (int j = nr; j > nr - map[cr][cc] + 1; j--) {
-						if (j < 0) break;
-						if (map[j][nc] != 0) {
-
-							q.emplace(j, nc);
-						}
-					}
-				}
-				else if (i == 2) { //µ¿
-					for (int j = nc; j < nc + map[cr][cc] - 1; j++) {
-						if (j > w) break;
-						if (map[nr][j] != 0) {
-
-							q.emplace(nr, j);
-
-						}
-					}
-				}
-				else if (i == 3) { //¼­
-					for (int j = nc; j > nc - map[cr][cc] + 1; j--) {
-						if (j < 1) break;
-						if (map[nr][j] != 0) {
-
-							q.emplace(nr, j);
-
-						}
-					}
-				}*/
 			}
 		}
 		map[cr][cc] = 0;

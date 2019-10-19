@@ -22,26 +22,14 @@
     <Filter Include="소스 파일\문자열">
       <UniqueIdentifier>{8bc8671e-b0d7-42f0-af21-4b3c216e98e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백준">
+      <UniqueIdentifier>{8e2e5334-7442-4803-89cd-4f1eb4b151da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\삼성">
+      <UniqueIdentifier>{82010164-32a4-4c72-b483-c79a2677226c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="slope_14890.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="kakao_1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="migration.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="dice.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="gear.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="robot.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="subset.cpp">
       <Filter>소스 파일\수열과 쿼리</Filter>
     </ClCompile>
@@ -60,45 +48,6 @@
     <ClCompile Include="NM5.cpp">
       <Filter>소스 파일\N과 M</Filter>
     </ClCompile>
-    <ClCompile Include="retire.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="tetromino.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="marbleEscape.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lab3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="examDirector.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="cctv.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2dMatrix.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="fishing.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="operator.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="samsung_1949.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="fibo.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="stairCount_10844.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="samsung_1953.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="backjoon_1120.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
@@ -108,23 +57,98 @@
     <ClCompile Include="backjoon_9935.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
+    <ClCompile Include="2dMatrix.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="cctv.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="dice.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="examDirector.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="fibo.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="fishing.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="gear.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="kakao_1.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="lab3.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="marbleEscape.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="migration.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="operator.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="retire.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="robot.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="slope_14890.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="stairCount_10844.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="tetromino.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_1949.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_1953.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
     <ClCompile Include="samsung_2105.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="samsung_5658.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="samsung_2117.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="samsung_5656.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\삼성</Filter>
     </ClCompile>
     <ClCompile Include="samsung_2382.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_4013.cpp">
+      <Filter>소스 파일\삼성</Filter>
     </ClCompile>
     <ClCompile Include="samsung_5644.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_5656.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_2117.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_5658.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_4014.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_5653.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_5650.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_2112.cpp">
+      <Filter>소스 파일\삼성</Filter>
+    </ClCompile>
+    <ClCompile Include="samsung_2383.cpp">
+      <Filter>소스 파일\삼성</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
