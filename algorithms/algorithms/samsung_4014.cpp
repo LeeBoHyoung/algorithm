@@ -1,3 +1,4 @@
+//х╟аж╥н
 #define _CRT_SECURE_NO_WARNINGS
 #include <cstdio>
 #include <iostream>
