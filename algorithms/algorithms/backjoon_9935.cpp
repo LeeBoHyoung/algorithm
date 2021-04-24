@@ -10,11 +10,12 @@ int main() {
 	cin >> s >> bomb;
 	int bsize = bomb.length();
 	int idx = s.find(bomb);
+
 	while (idx != -1) {
 		s.erase(idx, bsize);
-		if (idx - bsize > 0) idx = s.find(bomb, idx - bsize);
-		else idx = s.find(bomb);
+		idx = s.find(bomb);
 	}
+	
 	if (s == "") s = "FRULA";
 	cout << s << endl;
 

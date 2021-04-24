@@ -7,6 +7,7 @@ using namespace std;
 int n, m;
 vector<bool> visited;
 vector<int> v;
+
 void dfs(vector<int> arr) {
 	if (v.size() == m) {
 		for (int i = 0; i < m; i++) {

@@ -5,13 +5,14 @@ using namespace std;
 int n, m;
 vector<bool> visited;
 vector<int> v;
-
+int cnt = 0;	
 void dfs(vector<int> arr) {
 	if (v.size() == m) {
-		for (int i = 0; i < m; i++) {
+		/*for (int i = 0; i < m; i++) {
 			cout << v[i] << " ";
 		}
-		cout << "\n";
+		cout << "\n";*/
+		cnt++;
 		return;
 	}
 	else {
@@ -37,4 +38,5 @@ int main() {
 	}
 
 	dfs(arr);
+	printf("%d\n", cnt);
 }
